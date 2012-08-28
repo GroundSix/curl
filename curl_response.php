@@ -7,7 +7,7 @@
  * @package curl
  * @author Sean Huber <shuber@huberry.com>
 **/
-class CurlResponse {
+class Curl_Response {
     
     /**
      * The body of the response without the headers block

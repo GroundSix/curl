@@ -1,6 +1,6 @@
 <?php
 
-class CurlException extends Exception
+class Curl_Exception extends Exception
 {
 	
 	static public $curl_errors = array(
