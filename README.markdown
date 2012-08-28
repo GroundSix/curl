@@ -15,7 +15,7 @@ Click the `download` link above or `git clone git://github.com/GroundSix/curl.gi
 Simply require and initialize the `Curl` class like so:
 
 	use GroundSix\Component\Curl;
-	$curl = new Curl\Curl;
+	$curl = new Curl\Curl();
 
 
 ### Performing a Request
