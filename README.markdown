@@ -5,7 +5,7 @@ A basic CURL wrapper for PHP (see [http://php.net/curl](http://php.net/curl) for
 
 ## Installation
 
-Click the `download` link above or `git clone git://github.com/shuber/curl.git`
+Click the `download` link above or `git clone git://github.com/GroundSix/curl.git`
 
 
 ## Usage
@@ -14,8 +14,8 @@ Click the `download` link above or `git clone git://github.com/shuber/curl.git`
 
 Simply require and initialize the `Curl` class like so:
 
-	require_once 'curl.php';
-	$curl = new Curl;
+	use GroundSix\Component\Curl;
+	$curl = new Curl\Curl;
 
 
 ### Performing a Request
@@ -126,15 +126,3 @@ You can set/override many different options for CURL requests (see the [curl_set
 	$curl->options['autoreferer'] = true;
 	$curl->options['CURLOPT_AUTOREFERER'] = true;
 	$curl->options['curlopt_autoreferer'] = true;
-
-
-## Testing
-
-Uses [ztest](http://github.com/jaz303/ztest), simply download it to `path/to/curl/test/ztest` (or anywhere else in your php include_path)
-
-Then run `test/runner.php`
-
-
-## Contact
-
-Problems, comments, and suggestions all welcome: [shuber@huberry.com](mailto:shuber@huberry.com)
