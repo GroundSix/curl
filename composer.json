@@ -8,4 +8,7 @@
         "psr-0": { "GroundSix\\Component\\Curl": "" }
     },
     "target-dir": "GroundSix/Component/Curl",
+    "require" : {
+    	"php": ">=5.3.0"
+    }
 }
