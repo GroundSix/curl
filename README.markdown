@@ -1,5 +1,7 @@
 # curl
 
+### This is now deprecated - Do not use
+
 A basic CURL wrapper for PHP (see [http://php.net/curl](http://php.net/curl) for more information about the libcurl extension for PHP)
 
 
